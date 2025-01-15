@@ -1,48 +1,53 @@
-aside{
-    width: 400px;
-    margin: 10px;
-    border: 1px;
-    padding: 5px;
-    background-color: bisque;
-    color:black;
-
+aside {
+  width: 400px;
+  margin: 10px;
+  border: 1px;
+  padding: 5px;
+  background-color: bisque;
+  color: black;
 }
 
-aside img{
-    width:200px;
-    height:auto;
+aside img {
+  width: 200px;
+  height: auto;
 }
 
-footer{
-    margin-top: 10px;
-    border-top: 1px dotted blue;
-    text-align: center;
+footer {
+  margin-top: 10px;
+  border-top: 1px dotted blue;
+  text-align: center;
 }
 
 nav {
   background-color: darkblue;
-  color:aliceblue;
+  color: aliceblue;
   padding: 10px;
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
 }
 
-h1{
-    color: darkblue
+h1 {
+  color: darkblue;
 }
 
-main img{
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-p{
-    padding: 0;
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+p {
+  padding: 0;
 }
