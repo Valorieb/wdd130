@@ -1,8 +1,14 @@
+:root {
+  --background-color: lightblue;
+  --color: #333333;
+  --padding: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 aside {
   width: 400px;
   margin: 10px;
-  border: 1px;
-  padding: 5px;
+  padding: 10px;
   background-color: bisque;
   color: black;
 }
@@ -11,6 +17,10 @@ aside img {
   width: 200px;
   height: auto;
 }
+
+/* body {
+  background-color: var(--background-color);
+} */
 
 footer {
   margin-top: 10px;
@@ -27,7 +37,7 @@ nav {
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
