@@ -1,0 +1,87 @@
+:root {
+  --primary-color: rgb(26, 83, 92);
+  --secondary-color: rgb(247, 255, 247);
+  --accent1-color: rgb(78, 205, 196);
+  --accent2-color: rgb(255, 107, 107);
+}
+
+a {
+  color: #ffe66d;
+  padding: 10px;
+}
+
+article::after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+
+body {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Rubik", serif;
+}
+
+h1 {
+  font-family: "Bubbler One", serif;
+  color: var(--secondary-color);
+  z-index: 1;
+}
+
+h2 {
+  font-family: "Bubbler One", serif;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: "Rubik", serif;
+  color: var(--secondary-color);
+  padding: 10px;
+  z-index: 1;
+}
+
+.adventure_img {
+  margin-top: 30px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 345px;
+  /* background-color: black; */
+  z-index: 0;
+}
+
+.hero p {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  height: 100px;
+  margin-right: 217px;
+  position: absolute;
+  background-color: rgb(78, 205, 196, 0.8);
+  bottom: 3rem;
+}
+.hero h1 {
+  background-color: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.social_media_link {
+  text-decoration: none;
+}
+
+.staff_img {
+  /* border: 5px solid rgb(255, 107, 107); */
+  width: 200px;
+  height: auto;
+  position: absolute;
+  float: right;
+  right: 1rem;
+  bottom: 4rem;
+}
