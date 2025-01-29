@@ -31,11 +31,13 @@ h1 {
   font-family: "Bubbler One", serif;
   color: var(--secondary-color);
   z-index: 1;
+  text-align: center;
 }
 
 h2 {
   font-family: "Bubbler One", serif;
   color: var(--secondary-color);
+  text-align: center;
 }
 
 header{
@@ -103,6 +105,10 @@ p {
   position: absolute;
   padding: 10px;
   font-size: 50px;
+  width: 100%;
+  text-align: center;
+  justify-self: center;
+  box-sizing: border-box;
 }
 
 .history{
