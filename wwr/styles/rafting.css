@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgb(26, 83, 92);
-  --secondary-color: rgb(247, 255, 247);
-  --accent1-color: rgb(78, 205, 196);
+  --primary-color: #1a535c;
+  --secondary-color:#f7fff7;
+  --accent1-color: rgb#1ccdc4;
   --accent2-color: rgb(255, 107, 107);
 }
 
@@ -85,6 +85,12 @@ p {
   height: 345px;
   /* background-color: black; */
   z-index: 0;
+}
+
+.hero p {
+  color: #371d60;
+  padding: 10px;
+
 }
 
 .hero article {
