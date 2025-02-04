@@ -203,6 +203,10 @@ p {
   padding:20px;
 }
 
+iframe{
+  border: 0;
+}
+
 .staff-contact-profiles{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -236,11 +240,15 @@ form {
   place-self: center;
 }
 
+form p{ 
+  color: black;
+}
+
 fieldset{
   display: grid;
   grid-gap: .5rem;
   margin: 1rem;
-  border: 1 px solid;
+  border: 1px solid;
   padding: 1rem;
 }
 
@@ -263,8 +271,8 @@ button:hover{
 }
 
 label{
-  padding: 20px;
-  margin: auto;
+  padding: 5px;
+  margin: 0;
   width: 300px;
   /* background-color: palevioletred; */
   text-align: center;
@@ -272,7 +280,6 @@ label{
   padding: 10px;
   display: flex;
   justify-self: center;
-  justify-content: ;
 }
 
 input {
@@ -298,10 +305,20 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
+.radio-group{
+  display: grid;
+  gap: 8px;
+}
+
+.radio-group label {
+  grid-template-columns: auto 1fr;
+  display: grid;
+  align-items: center;
+  gap: 8px;
+}
+
 input[type="radio"]{
- display: flex;
- justify-content:center;
-  margin: 25px;
+  width: auto;
 }
 
 .form-item {
@@ -309,16 +326,14 @@ input[type="radio"]{
   align-items: center;
 }
 
-.column1 {
-  grid-template-columns: 1fr 1fr;
+/* .column1 {
+  grid-template-columns: 20% 20% 20% 20% 20%;
   margin: 0.5rem 0;
-}
+} */
 
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
-
-
 
 
 /*------------------- footer CSS --------------*/
