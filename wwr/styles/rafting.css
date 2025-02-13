@@ -86,10 +86,12 @@ p {
 
 .hero {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 345px;
   /* background-color: black; */
   z-index: 0;
+  display: block;
+  overflow: hidden;
 }
 
 .hero p {
@@ -171,6 +173,111 @@ p {
   right: 1rem;
   bottom: 1rem;
 }
+
+
+
+.plan_adventure{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  /* background-color: blueviolet */
+
+}
+
+.adventure_sticker {
+  grid-column: 1/span 2;
+  grid-row-start:1;
+  width: 300px;
+  justify-self: start;
+  /* background-color: #1ccdc4; */
+  transform: rotate(-10deg);
+}
+
+.excited_rafters{
+  width: 350px;
+  grid-row-start:1;
+  grid-column: 4 / span 2;
+  justify-self: end;
+}
+
+.trips_link_container{
+  grid-column: 2 / span 2;
+  /* background-color: red; */
+}
+
+.trips_link{
+  display: flex;
+  /* background-color:gray; */
+  justify-content: center;
+  font-size: 30px;
+  justify-self: center;
+
+}
+
+.plan{
+  font-size: 40px;
+  padding: 10px;
+}
+
+/* Trips page */
+
+.trips img{
+  width: 400px;
+  height: 266.6px;
+  /* padding:10px; */
+  /* margin:10px; */
+}
+
+.trips{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  place-items: center;
+  align-items: stretch;
+  gap: 20px; 
+}
+
+.half, .full, .multi, .dientes{
+  grid-column: span 1;
+  grid-row: span 1;
+  place-items: center;
+  align-self: start; 
+}
+
+.trip-table{
+  
+  padding:20px;
+  margin:20px;
+  display:flex;
+  justify-content: center;
+  
+}
+
+
+.trip-table td{
+  /* border: rgb(255, 107, 107) 2px solid; */
+  text-align: center;
+  padding:10px;
+  background-color: #f7fff7;
+  color:#12393e
+  
+}
+
+.trip-table th{
+  background-color: #FF6B6B;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  padding:10px;
+  font-size: larger;
+  
+}
+
+.trips-link{
+  display:flex;
+  justify-content: center;
+  font-size: larger;
+}
+
 
 /* Contact page */
 
@@ -349,7 +456,6 @@ footer {
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 50% 50%;
 }
-
 
 
 .copyright {
