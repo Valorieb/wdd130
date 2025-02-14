@@ -84,6 +84,12 @@ p {
 
 }
 
+.purpose img{
+ display: flex;
+ justify-self: center;
+ width:300px;
+}
+
 .hero {
   position: relative;
   max-width: 100%;
@@ -174,35 +180,86 @@ p {
   bottom: 1rem;
 }
 
+.plan-container{
+  background-color: #1ccdc4;
+  padding: 10px;
+}
 
-
-.plan_adventure{
+/* .plan_adventure{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   /* background-color: blueviolet */
 
+/* } */ 
+
+.plan_adventure_pics{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+  overflow:hidden;
+
 }
 
 .adventure_sticker {
-  grid-column: 1/span 2;
-  grid-row-start:1;
-  width: 300px;
+  display:grid;
+  width: 200px;
   justify-self: start;
   /* background-color: #1ccdc4; */
   transform: rotate(-10deg);
 }
 
+.adventure_sticker1 {
+  display:grid;
+  width: 200px;
+  justify-self: center;
+  /* background-color: #1ccdc4; */
+  transform: rotate(20deg);
+}
+
+
+
+.adventure_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding:20px;
+  margin:20px;
+  background-color: #f7fff7;
+  color:#1a535c
+  
+}
+
+.adventure_info p{
+  color:#1a535c;
+}
+
+.adventure_family {
+  grid-column: 1;
+  grid-row-start:1;
+  height:233.33px;
+  justify-self: start;
+}
+
+.beautiful_rapids{
+  width: 350px;
+  grid-column: 2;
+  grid-row-start:1;
+  justify-self: center;
+  overflow: hidden;
+
+}
+
 .excited_rafters{
   width: 350px;
   grid-row-start:1;
-  grid-column: 4 / span 2;
+  grid-column: 3;
   justify-self: end;
+  
 }
 
 .trips_link_container{
   grid-column: 2 / span 2;
-  /* background-color: red; */
+  padding:20px;
 }
 
 .trips_link{
@@ -224,8 +281,7 @@ p {
 .trips img{
   width: 400px;
   height: 266.6px;
-  /* padding:10px; */
-  /* margin:10px; */
+
 }
 
 .trips{
@@ -235,6 +291,15 @@ p {
   place-items: center;
   align-items: stretch;
   gap: 20px; 
+}
+
+.adventure_info ul{
+  list-style: none;
+  padding-left:0;
+}
+
+.adventure_info li::before{
+  content:"💦"
 }
 
 .half, .full, .multi, .dientes{
@@ -433,15 +498,16 @@ input[type="radio"]{
   align-items: center;
 }
 
-/* .column1 {
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  margin: 0.5rem 0;
-} */
-
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
 
+.form-container{
+  background-color: #FF6B6B;
+  padding: 20px;
+  
+
+}
 
 /*------------------- footer CSS --------------*/
 
